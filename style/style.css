@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30pt;
+}
+
+#page-landing{
+    background-color: #DCDCDC;
+}
+
+#page-landing section div{
+    background-color: 	#EE82EE; 
+    width: 90%;
+
+    margin: 32px auto;
+    padding: 10px;
+}
+
+#page-landing section div #resultado{
+    background-color:#FFDEAD;
+    border-radius: 5px;
+    height: 80px;
+    text-align: right;
+    padding: 20px;
+}
+
+.btnNum{
+    background-color:#FFDEAD;
+    border-radius: 5px;
+    width: 20%;
+
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.btnOpe{
+    background-color:#FFDEAD;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+input{
+    margin: 5px;
+}
+
+.btnNum:hover{
+    background-color: #f9d398;
+}
+
+.btnOpe:hover{
+    background-color: #f9d398;
+}
+
